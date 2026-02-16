@@ -1,0 +1,41 @@
+2026-02-16T11:48:14.478+05:30  INFO 7428 --- [student-file-upload] [restartedMain] c.s.s.StudentFileUploadApplication       : Starting StudentFileUploadApplication using Java 21.0.10 with PID 7428 (C:\Users\TANISHA\Downloads\springboot\student-file-upload\target\classes started by TANISHA in C:\Users\TANISHA\Downloads\springboot\student-file-upload)
+2026-02-16T11:48:14.485+05:30  INFO 7428 --- [student-file-upload] [restartedMain] c.s.s.StudentFileUploadApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-02-16T11:48:14.549+05:30  INFO 7428 --- [student-file-upload] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-16T11:48:14.549+05:30  INFO 7428 --- [student-file-upload] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-16T11:48:15.582+05:30  INFO 7428 --- [student-file-upload] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-16T11:48:15.641+05:30  INFO 7428 --- [student-file-upload] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interface.
+2026-02-16T11:48:16.473+05:30  INFO 7428 --- [student-file-upload] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-02-16T11:48:16.491+05:30  INFO 7428 --- [student-file-upload] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-16T11:48:16.491+05:30  INFO 7428 --- [student-file-upload] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-16T11:48:16.551+05:30  INFO 7428 --- [student-file-upload] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2000 ms
+2026-02-16T11:48:16.871+05:30  INFO 7428 --- [student-file-upload] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-02-16T11:48:16.935+05:30  INFO 7428 --- [student-file-upload] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.1.Final
+2026-02-16T11:48:17.559+05:30  INFO 7428 --- [student-file-upload] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-16T11:48:17.602+05:30  INFO 7428 --- [student-file-upload] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-16T11:48:18.029+05:30  INFO 7428 --- [student-file-upload] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@12895c31
+2026-02-16T11:48:18.034+05:30  INFO 7428 --- [student-file-upload] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-16T11:48:18.126+05:30  INFO 7428 --- [student-file-upload] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/student_file_uploads?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: student_file_uploads/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-16T11:48:19.187+05:30  INFO 7428 --- [student-file-upload] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-16T11:48:19.252+05:30  INFO 7428 --- [student-file-upload] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-16T11:48:19.372+05:30  INFO 7428 --- [student-file-upload] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-16T11:48:19.681+05:30  WARN 7428 --- [student-file-upload] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-16T11:48:20.084+05:30  INFO 7428 --- [student-file-upload] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name users
+2026-02-16T11:48:20.771+05:30  INFO 7428 --- [student-file-upload] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-02-16T11:48:20.779+05:30  INFO 7428 --- [student-file-upload] [restartedMain] c.s.s.StudentFileUploadApplication       : Started StudentFileUploadApplication in 6.948 seconds (process running for 7.714)
+2026-02-16T12:33:58.824+05:30  WARN 7428 --- [student-file-upload] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m39s730ms796µs600ns).
+2026-02-16T12:47:18.938+05:30  INFO 7428 --- [student-file-upload] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-16T12:47:18.944+05:30  INFO 7428 --- [student-file-upload] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-02-16T12:47:18.960+05:30  INFO 7428 --- [student-file-upload] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-16T12:47:18.976+05:30  INFO 7428 --- [student-file-upload] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-02-16T12:47:18.982+05:30  INFO 7428 --- [student-file-upload] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
